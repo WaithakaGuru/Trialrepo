@@ -22,6 +22,7 @@
             background-color: rgb(176, 198, 198);
             height: 450px;
             width: 450px;
+            animation: back-change 2s ease-out 1s reverse 60;
         }
         .container .rotate{
             height: 48px;
@@ -59,6 +60,35 @@
                 background-color: violet;
             }
             
+        }
+        @keyframes back-change {
+            0%,100%{
+
+            }
+            20%{
+                background: rgb(255, 234, 0);
+            }
+            30%{
+                background-color: greenyellow;
+            }
+            40%{
+                background-color: rgb(44, 199, 44);
+            }
+            50%{
+                background-color: green;
+            }
+            60%{
+                background-color: rgb(9, 129, 241);
+            }
+            70%{
+                background-color: rgb(22, 63, 152);
+            }
+            80%{
+                background-color: rgb(102, 52, 220);
+            }
+            90%{
+                background-color: blueviolet;
+            }
         }
     </style>
 </head>
